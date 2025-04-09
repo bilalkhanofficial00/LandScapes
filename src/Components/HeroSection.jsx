@@ -38,31 +38,53 @@ export default function HeroSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [heroHeight, setHeroHeight] = useState('100vh');
   const sectionRef = useRef(null);
+  const initialRenderComplete = useRef(false);
+
+  // Function to calculate hero height
+  const calculateHeroHeight = () => {
+    // Find header height
+    const header = document.querySelector('header');
+    const headerHeight = header ? header.offsetHeight : 0;
+    
+    // Calculate height, ensuring at least a minimum height
+    const calculatedHeight = Math.max(
+      window.innerHeight - headerHeight, 
+      400 // Minimum height of 400px
+    );
+    
+    // Update hero section height if ref exists
+    if (sectionRef.current) {
+      sectionRef.current.style.height = `${calculatedHeight}px`;
+      sectionRef.current.style.minHeight = `${calculatedHeight}px`;
+    }
+    
+    // Also update state for additional flexibility
+    setHeroHeight(`${calculatedHeight}px`);
+  };
 
   useEffect(() => {
-    const calculateHeroHeight = () => {
-      // Find header height
-      const header = document.querySelector('header');
-      const headerHeight = header ? header.offsetHeight : 0;
-      
-      // Calculate height, ensuring at least a minimum height
-      const calculatedHeight = Math.max(
-        window.innerHeight - headerHeight, 
-        400 // Minimum height of 400px
-      );
-      
-      // Update hero section height if ref exists
-      if (sectionRef.current) {
-        sectionRef.current.style.height = `${calculatedHeight}px`;
-        sectionRef.current.style.minHeight = `${calculatedHeight}px`;
-      }
-      
-      // Also update state for additional flexibility
-      setHeroHeight(`${calculatedHeight}px`);
-    };
+    // Set initial 100vh height
+    if (sectionRef.current) {
+      sectionRef.current.style.height = '100vh';
+      sectionRef.current.style.minHeight = '100vh';
+    }
 
-    // Calculate height on mount and window resize
-    calculateHeroHeight();
+    // This ensures initial calculation happens after the DOM is fully loaded
+    if (typeof window !== 'undefined') {
+      if (document.readyState === 'complete') {
+        calculateHeroHeight();
+      } else {
+        window.addEventListener('load', calculateHeroHeight);
+      }
+    }
+
+    // Calculate height after a short delay to ensure header is rendered
+    const initialTimer = setTimeout(() => {
+      calculateHeroHeight();
+      initialRenderComplete.current = true;
+    }, 100);
+
+    // Recalculate on resize
     window.addEventListener('resize', calculateHeroHeight);
 
     // Slider interval
@@ -75,8 +97,17 @@ export default function HeroSection() {
     // Cleanup
     return () => {
       clearInterval(interval);
+      clearTimeout(initialTimer);
       window.removeEventListener('resize', calculateHeroHeight);
+      window.removeEventListener('load', calculateHeroHeight);
     };
+  }, []);
+
+  // Run calculation once more after component is mounted
+  useEffect(() => {
+    // This runs after the component has mounted
+    const mountTimer = setTimeout(calculateHeroHeight, 300);
+    return () => clearTimeout(mountTimer);
   }, []);
 
   return (
