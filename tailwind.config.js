@@ -11,7 +11,9 @@ module.exports = {
   ],
   theme: {
         extend: {
-          
+          fontFamily: {
+            bricolage: ['var(--font-bricolage)'], 
+            },
           container: {
             center: true,
             padding: {
@@ -30,6 +32,7 @@ module.exports = {
             xl: "1280px",
             "2xl": "1536px",
           },
+            
         },
       },
   plugins: [],

@@ -1,4 +1,3 @@
-
 /* eslint-disable react/no-unescaped-entities */
 
 import Image from 'next/image';
@@ -32,14 +31,12 @@ export default function About() {
 
                 {/* Text on right */}
                 <div>
-                    <h1 className="text-3xl font-semibold lg:mt-10 text-gray-800 uppercase mb-4">ABOUT</h1>
+                    <h1 className="text-3xl font-semibold lg:mt-10 text-gray-800 uppercase mb-4">ABOUT US</h1>
                     <div className="w-full h-px bg-[#37b629] mb-6"></div>
-                    <p className="text-gray-700">
-                        Since starting Sand & Stone Landscapes in early 2010&rsquo;
-                        Director Luke Roodenburg and his growing team of
-                        dedicated professionals&rsquo; have transformed hundreds of
-                        outdoor spaces across Sydney&rsquo; from the Hills District to the
-                        Inner West&rsquo; to the North Shore.
+                    <p className="text-gray-700 text-justify">
+                        GTS Landscaping has been assisting clients in creating lovely gardens and outdoor areas they adore since 2008. 
+                        We are a team that can design, construct, and maintain your garden so that it is a space you love every day. 
+                        We are more than just a landscaping firm.
                     </p>
                 </div>
             </div>
@@ -47,16 +44,13 @@ export default function About() {
             {/* Second section - Text on left, image on right */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
                 {/* Text on left */}
-                <div className=' items-center flex '>
-                    <p className="text-gray-700 lg:mt-20">
-                        We pride ourselves on our transparent relationship with
-                        homeowners&rsquo; working closely and collaboratively with them
-                        every step of the process from the initial consultation and
-                        design through to construction. We also have a dedicated
-                        garden maintenance team who specialize in keeping
-                        gardens looking lush and beautiful&rsquo; to the envy of the street.
-                        Have a browse through our <Link href="/portfolio" className="text-blue-600 hover:underline">recent work</Link> and read what our
-                        clients have to say about working with us.
+                <div className='items-center flex'>
+                    <p className="text-gray-700 text-justify lg:mt-20">
+                        We at GTS Landscaping collaborate with excellent plumbers, electricians, and bore contractors. 
+                        This means that we can handle various tasks, such as hard-wiring controllers, adding new bores, 
+                        and maintaining old ones. We go above and beyond to ensure that everything in your outdoor 
+                        environment functions flawlessly. Have a browse through our and 
+                        see how we can transform your outdoor space.
                     </p>
                 </div>
 
@@ -68,22 +62,22 @@ export default function About() {
                             alt="Stone pavers with garden"
                             layout="fill"
                             objectFit="cover"
-                            className="object-center  shadow-lg shadow-gray-950 "
+                            className="object-center shadow-lg shadow-gray-950"
                         />
                     </div>
                 </div>
             </div>
 
 
-            {/* Third section - Full width yellow background with image and text */}
-            <div className="w-full mt-[350px]  lg:[350px] lg:[100px]   py-32  relative bg-[#2a7d2e] ">
-                <div className="container mx-auto ">
+            {/* Third section - Full width green background with image and text */}
+            <div className="w-full mt-[350px] lg:[350px] lg:[100px] py-32 relative bg-[#2a7d2e]">
+                <div className="container mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-0">
                         {/* Image on left */}
                         <div className="relative top-[-60%] h-80 lg:h-auto w-full">
                             <Image
                                 src={A3}
-                                alt="Luke Roodenburg sitting on a stone wall"
+                                alt="GTS Landscaping professional"
                                 layout="fill"
                                 objectFit="cover"
                                 className="shadow-lg shadow-gray-950 object-center"
@@ -92,28 +86,21 @@ export default function About() {
 
                         {/* Text on right */}
                         <div className="lg:col-span-2 text-white lg:my-0 md:my-[-15%] my-[-30%] lg:p-8">
-                            <h2 className="text-2xl font-semibold mb-2">LUKE ROODENBURG</h2>
-                            <h3 className="text-xl mb-6">DIRECTOR</h3>
+                            <h2 className="text-2xl font-semibold mb-2">EXPERT SERVICES</h2>
+                            <h3 className="text-xl mb-6">FOR EVERY NEED</h3>
                             <div className="w-full h-px bg-[#37b629] mb-6"></div>
 
-                            <p className="mb-6">
-                                Luke began his landscaping career after completing his trade
-                                certificate in Horticulture in 2003. After several years of working
-                                for different landscape design companies in Sydney and London&rsquo;
-                                he decided it was time to start his own business. In early 2010&rsquo;
-                                he started Sand & Stone Landscapes with a vision to create
-                                beautiful and functional outdoor spaces across Sydney.
+                            <p className="mb-6 text-justify">
+                                We can install a new, green lawn for you if you require one. We can also add mulch, 
+                                enrich the soil, and do much more to make your garden better. We can take care of 
+                                everything your garden needs to look its best.
                             </p>
 
-                            <p>
-                                Luke's friendly, honest and open nature, combined with his keen
-                                eye for detail has earned him a solid reputation amongst his
-                                clientele. Luke is committed to professionalism and ensures a
-                                high standard of work every time. Luke is passionate about
-                                working with natural products such as sandstone, granite and
-                                hardwood and takes pride in being able to transform an outdoor
-                                space that is often unusable into something that is enjoyable to
-                                live in.
+                            <p className='text-justify'>
+                                Our mission is to reflect as closely as possible the styling, decoration and colour palette 
+                                of the client's home so that there is a strong visual relationship between the inside and 
+                                outside spaces. We regularly work closely with architects and interior designers to ensure 
+                                that this is achieved.
                             </p>
                         </div>
                     </div>
@@ -132,37 +119,31 @@ export default function About() {
                 }}
             >
                 {/* White overlay for better text readability */}
-                <div className="absolute inset-0  bg-black bg-opacity-40"></div>
+                <div className="absolute inset-0 bg-black bg-opacity-40"></div>
                 
                 {/* Text overlay */}
                 <div className="max-w-4xl container mx-auto relative z-10">
-                    <p className="my-8 text-white leading-relaxed">
-                        "Luke and his team from Sand and Stone landscape design were fantastic to work with from beginning
-                        to end. We had some clear ideas about converting our hot Inner city small backyard into a cool green
-                        space with a plunge pool and tropical surrounds. He took our initial brief and added layers of design
-                        thinking in details we chose through to the paving and glass we should use, all just fitting together
-                        cohesively, beautifully to create a stunning space. Luke was always on site and reachable whenever
-                        we needed to call. He even helped us plan our pool logistics. So we had this incredible project
-                        management support as well as landscaping expertise.
+                    <p className="my-8 text-white text-justify leading-relaxed">
+                        We genuinely adore our customers and are proud of the job we provide. Our objective is straightforward: 
+                        to make sure you have an outside area that you like being in and are proud of. We want any outdoor space, 
+                        be it your backyard, garden, or wherever else outside, to make you feel content and at ease.
                     </p>
-                    <p className="mb-6 text-white leading-relaxed">
-                        Our oasis is so beautiful and gives us endless pleasure. So many people ask us who created our
-                        space, and we never hesitate to tell them about Luke and the Sand and stone team."
+                    <p className="mb-6 text-white text-justify leading-relaxed">
+                        At GTS Landscaping, we're passionate about designing outdoor areas that improve your life with beauty 
+                        and delight. We're here to bring your ideal garden to life with our skilled staff and dedication to 
+                        excellence. Together, let's design a space you'll enjoy for many years to come!
                     </p>
-                    <p className="font-semibold  text-white">LYNN</p>
-                    <p className="font-semibold  text-[#2a7d2e]">Stanmore</p>
+                    <p className="font-bold text-white">GTS LANDSCAPING</p>
+                    <p className="font-semibold text-white">Making Your Dream Garden a Reality</p>
 
-                        {/* Call to action button */}
-            <div className="text-center my-16">
-                <Link href="/contact" className="inline-block bg-[#2a7d2e] hover:bg-[#37b629] text-white font-semibold py-2 px-8 uppercase transition duration-300">
-                    GET IN TOUCH
-                </Link>
-            </div>
+                    {/* Call to action button */}
+                    <div className="text-center my-16">
+                        <Link href="/Contact" className="inline-block bg-[#2a7d2e] hover:bg-[#37b629] text-white font-semibold py-2 px-8 uppercase transition duration-300">
+                            GET IN TOUCH
+                        </Link>
+                    </div>
                 </div>
-             
             </section>
-           
-           
         </main>
         </>
     );

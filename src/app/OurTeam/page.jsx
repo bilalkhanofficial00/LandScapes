@@ -8,6 +8,7 @@ import TM1 from '@/Components/Images/Our Team/TeamMembers/1.jpeg';
 import TM2 from '@/Components/Images/Our Team/TeamMembers/2.jpeg';
 import TM3 from '@/Components/Images/Our Team/TeamMembers/3.jpeg';
 import ScrollToTop from '@/Components/ScrollToTop';
+import Link from 'next/link';
 
 const teamMembers = [
   { 
@@ -147,9 +148,11 @@ function TeamPage() {
             <p className="text-center  text-white">- Maya</p>
             <p className="text-center  text-[#37b629]">Roseville Chase</p>
             <div className="text-center mt-6">
+              <Link href='/Contact'>
               <button className="bg-[#2a7d2e] text-white px-6 py-3 rounded-full hover:bg-[#37b629] transition-colors">
                 GET IN TOUCH
               </button>
+              </Link>
             </div>
           </div>
         </div>
