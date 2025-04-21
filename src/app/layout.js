@@ -16,8 +16,8 @@ const bricolage = Bricolage_Grotesque({
 
 
 export const metadata = {
-  title: 'Green Turf Solutions',
-  description: 'Green Turf Solutions',
+  title: 'GTS',
+  description: 'GTS',
 }
 
 export default function RootLayout({ children }) {

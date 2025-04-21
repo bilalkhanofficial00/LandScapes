@@ -11,7 +11,7 @@ export default function TheDrainage() {
         </div>
       <div className="w-full h-[300px] relative mb-6 rounded-lg overflow-hidden">
         <Image
-          src="/assets/Services/1.jpg" // <-- replace with your actual image path
+          src="/assets/Services/1.jpeg" // <-- replace with your actual image path
           alt="Backyard Drainage"
           fill
           className="object-cover"

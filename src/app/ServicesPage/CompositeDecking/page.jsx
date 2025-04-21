@@ -11,7 +11,7 @@ export default function ProductFeature() {
         </div>
       <div className="w-full h-[300px] relative mb-6 rounded-lg overflow-hidden">
         <Image
-          src="/assets/Services/5.jpg" // <-- replace with your actual image path
+          src="/assets/Services/5.jpeg" // <-- replace with your actual image path
           alt="Durable Product"
           fill
           className="object-cover object-center"

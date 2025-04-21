@@ -76,7 +76,7 @@ export default function Services() {
               <span className="text-green-500">Services</span>
             </h1>
             <p className=" mt-4 max-w-3xl text-justify mx-auto text-gray-600">
-              At EverGreen Turf, we combine horticultural expertise with superior customer service to deliver exceptional lawn and garden care. From routine maintenance to comprehensive landscape transformations, our team is dedicated to making your outdoor spaces thrive in every season.
+              At GTS, we combine horticultural expertise with superior customer service to deliver exceptional lawn and garden care. From routine maintenance to comprehensive landscape transformations, our team is dedicated to making your outdoor spaces thrive in every season.
             </p>
           </div>
         </section>

@@ -11,7 +11,7 @@ export default function GrassChoice() {
         </div>
       <div className="w-full h-[300px] relative mb-6 rounded-lg overflow-hidden">
         <Image
-          src="/assets/Services/3.jpg" // <-- Update with your actual image path
+          src="/assets/Services/3.jpeg" // <-- Update with your actual image path
           alt="Artificial and Natural Grass"
           fill
           className="object-cover"

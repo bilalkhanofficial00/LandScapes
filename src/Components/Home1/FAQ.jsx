@@ -12,7 +12,7 @@ const FAQ = () => {
     {
       id: 2,
       question: "What sets your landscaping service apart from others in the area?",
-      answer: "Green Turf Solutions stands out for our premium quality materials professional installation techniques long-lasting warranty coverage exceptional customer service and extensive experience with both residential and commercial projects. We use only the highest grade turf products that look and feel like natural grass."
+      answer: "GTS stands out for our premium quality materials professional installation techniques long-lasting warranty coverage exceptional customer service and extensive experience with both residential and commercial projects. We use only the highest grade turf products that look and feel like natural grass."
     },
     {
       id: 3,

@@ -13,7 +13,7 @@ export default function Main() {
             <Image
               src="/assets/main.webp" // Replace with your actual image path
               alt="Background"
-              layout="fill"
+              layout='fill'
               objectFit="cover"
               // className="opacity-80" // Adjust opacity as needed (0.2 = 20%)
             />
@@ -28,7 +28,7 @@ export default function Main() {
               Masterpieces
             </h1>
             <p className="max-w-2xl mx-auto font-semibold text-lg text-white  mb-12">
-              Give us a chance to assist you in designing the ideal space for entertainment and rest. The Oran Park-based, family-run landscaping company in your area is GTS Landscaping Creations.
+              Give us a chance to assist you in designing the ideal space for entertainment and rest. The Kellyville-based, family-run landscaping company in your area is GTS Landscaping Creations.
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">

@@ -11,7 +11,7 @@ export default function FenceInstallation() {
         </div>
       <div className="w-full h-[300px] relative mb-6 rounded-lg overflow-hidden">
         <Image
-          src="/assets/Services/4.jpg" // <-- replace with your actual image path
+          src="/assets/Services/4.jpeg" // <-- replace with your actual image path
           alt="Retaining Wall Installation"
           fill
           className="object-cover"

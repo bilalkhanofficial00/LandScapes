@@ -8,42 +8,42 @@ const Customers = () => {
       name: 'Charlie Leuschke',
       avatar: '/assets/A1.jpg',
       rating: 5,
-      text: 'The artificial turf installed by Green Turf Solutions has completely transformed our backyard. The quality is exceptional and it looks natural all year round. Our kids love playing on it and we no longer worry about mud or maintenance.'
+      text: 'The artificial turf installed by GTS has completely transformed our backyard. The quality is exceptional and it looks natural all year round. Our kids love playing on it and we no longer worry about mud or maintenance.'
     },
     {
       id: 2,
       name: 'Luke Glover',
       avatar: '/assets/A2.jpg',
       rating: 5,
-      text: 'I was skeptical about artificial grass but Green Turf Solutions changed my mind. The installation was quick and professional. My lawn looks perfect in every season with zero watering required. Best investment for my property.'
+      text: 'I was skeptical about artificial grass but GTS changed my mind. The installation was quick and professional. My lawn looks perfect in every season with zero watering required. Best investment for my property.'
     },
     {
       id: 3,
       name: 'Roderick Schumm',
       avatar: '/assets/A1.jpg',
       rating: 5,
-      text: 'Our sports facility needed durable turf that could withstand heavy use. Green Turf Solutions delivered exactly what we needed. The surface performs excellently under all weather conditions with minimal maintenance required.'
+      text: 'Our sports facility needed durable turf that could withstand heavy use. GTS delivered exactly what we needed. The surface performs excellently under all weather conditions with minimal maintenance required.'
     },
     {
       id: 4,
       name: 'Brandi Boyle',
       avatar: '/assets/A2.jpg',
       rating: 5,
-      text: 'As a busy homeowner I wanted a beautiful lawn without the endless mowing and watering. Green Turf Solutions provided exactly that. The installation team was professional and the result looks amazing. Highly recommended.'
+      text: 'As a busy homeowner I wanted a beautiful lawn without the endless mowing and watering. GTS provided exactly that. The installation team was professional and the result looks amazing. Highly recommended.'
     },
     {
       id: 5,
       name: 'Scott Runolfsdottir',
       avatar: '/assets/A1.jpg',
       rating: 5,
-      text: 'We installed Green Turf Solutions products at our community center last year. The turf has held up perfectly despite constant use. The drainage system works effectively even during heavy rain. Excellent product and service.'
+      text: 'We installed GTS products at our community center last year. The turf has held up perfectly despite constant use. The drainage system works effectively even during heavy rain. Excellent product and service.'
     },
     {
       id: 6,
       name: 'Claire Witting',
       avatar: '/assets/A2.jpg',
       rating: 5,
-      text: 'Green Turf Solutions transformed our patchy brown lawn into a lush green space that looks fantastic year round. The team was knowledgeable and efficient. We now enjoy our outdoor space more than ever before.'
+      text: 'GTS transformed our patchy brown lawn into a lush green space that looks fantastic year round. The team was knowledgeable and efficient. We now enjoy our outdoor space more than ever before.'
     }
   ];
 
@@ -54,7 +54,7 @@ const Customers = () => {
           <h2 className="text-center text-5xl font-bricolage md:text-6xl font-bold text-green-950 mb-2">Listen to what our</h2>
           <h2 className="text-center text-5xl font-bricolage md:text-6xl font-bold text-green-500 mb-6">customers say</h2>
           <p className="text-gray-600 max-w-3xl text-justify mx-auto text-sm">
-            Our customers love their new artificial turf installations. They enjoy beautiful green spaces year-round with minimal maintenance. Discover why so many homeowners businesses and sports facilities trust Green Turf Solutions for premium quality artificial grass and exceptional service.
+            Our customers love their new artificial turf installations. They enjoy beautiful green spaces year-round with minimal maintenance. Discover why so many homeowners businesses and sports facilities trust GTS for premium quality artificial grass and exceptional service.
           </p>
         </div>
 

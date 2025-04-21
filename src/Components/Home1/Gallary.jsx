@@ -11,7 +11,7 @@ export default function Gallery() {
         {/* Header Section */}
         <header className="mb-8 text-center">
           <h1 className="text-center text-5xl font-bricolage md:text-6xl font-bold mb-4">
-            <span className="text-green-950">EverGreen</span>
+            <span className="text-green-950">GTS</span>
             <span className="text-green-500"> Gallery</span>
           </h1>
           <p className="max-w-2xl mx-auto text-justify text-gray-600">

@@ -11,27 +11,27 @@ export default function LandscapeSlider() {
   // Array of image data
   const slides = [
     {
-      src: "/assets/F1.jpg",
-      title: "Transform Your Space",
-      description: "Creating sustainable beauty that lasts for generations"
-    },
-    {
-      src: "/assets/SwiperLS/2.jpg",
+      src: "/assets/SwiperLS/1.jpeg",
       title: "Elegant Gardens",
       description: "Harmonious designs that blend with natural surroundings"
     },
     {
-      src: "/assets/SwiperLS/3.jpg",
+      src: "/assets/SwiperLS/2.jpeg",
+      title: "Elegant Gardens",
+      description: "Harmonious designs that blend with natural surroundings"
+    },
+    {
+      src: "/assets/SwiperLS/3.jpeg",
       title: "Modern Landscaping",
       description: "Clean lines and contemporary elements for urban spaces"
     },
     {
-      src: "/assets/SwiperLS/4.jpg",
+      src: "/assets/SwiperLS/4.jpeg",
       title: "Sustainable Solutions",
       description: "Eco-friendly approaches to landscape architecture"
     },
     {
-      src: "/assets/SwiperLS/5.jpg",
+      src: "/assets/SwiperLS/5.jpeg",
       title: "Custom Outdoor Living",
       description: "Crafting personalized spaces for your lifestyle"
     }

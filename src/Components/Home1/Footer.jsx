@@ -101,7 +101,7 @@ export default function Footer() {
                     <span className="mr-3 mt-1">
                       <FontAwesomeIcon icon={faLocationDot} className="h-5 w-5 text-bright-green" />
                     </span>
-                    <span>Pridham Ave, Box Hill Nsw 2765</span>
+                    <span>Box Hill NSW 2765, Australia</span>
                   </li>
                   <li className="flex items-center">
                     <span className="mr-3">
