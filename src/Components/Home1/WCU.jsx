@@ -83,7 +83,7 @@ export default function WCU() {
                 src="/assets/S1.jpeg" 
                 alt="Professional landscaping and turf installation"
                 width={600}
-                height={900}
+                height={600}
                 className="w-full h-full object-cover shadow-md shadow-gray-500 rounded-lg"
                 priority
               />
