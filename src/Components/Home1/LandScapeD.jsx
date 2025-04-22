@@ -14,7 +14,7 @@ export default function LandscapeDesign() {
           <h2 className="text-2xl md:text-5xl font-medium text-emerald-600 mb-6">Expert Landscape Architecture in Sydney  </h2>
           <div className="h-1 w-32 bg-emerald-500 mx-auto mb-8"></div>
           <p className="text-gray-700 text-justify max-w-3xl mx-auto text-lg leading-relaxed">
-            Landscaping GTS provides meticulous landscape and garden design services to create stunning, 
+          GTS Landscaping  provides meticulous landscape and garden design services to create stunning, 
             natural settings that complement any home or business property. Our expert team is dedicated to 
             delivering premium solutions that transform outdoor spaces into beautiful and functional living areas.
           </p>

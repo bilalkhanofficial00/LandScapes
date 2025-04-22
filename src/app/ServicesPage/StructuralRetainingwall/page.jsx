@@ -29,7 +29,7 @@ export default function FenceInstallation() {
 
         <h2 className="text-2xl font-semibold text-green-700">Different Types of Retaining Walls</h2>
         <p>
-          We can install a wooden sleeper retaining wall, concrete sleepers, or a wall that resembles a Sydney stone block wall, depending on your preference. Every alternative has a distinct appearance and strength, so you may select the one that best suits your Gts Landscaping.
+          We can install a wooden sleeper retaining wall, concrete sleepers, or a wall that resembles a Sydney stone block wall, depending on your preference. Every alternative has a distinct appearance and strength, so you may select the one that best suits your GtS Landscaping.
         </p>
 
         <h2 className="text-2xl font-semibold text-green-700">Why It’s Important to Build It Right</h2>
